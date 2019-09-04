@@ -4,7 +4,13 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+	"start:ok": "electron .",
+	"start:a-fail": "electron main.js",
+	"start:b-fail": "electron ./main/main.js",
+	"start:c-fail": "electron ./main/main",
+	"start:d-fail": "electron ./main/",
+	"start:e-fail": "electron ./main/.",
+	"start:f-fail": "electron main"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
