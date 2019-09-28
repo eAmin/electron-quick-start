@@ -1,5 +1,0 @@
-directories:
-  output: dist
-  buildResources: build
-electronDist: ./electron-global
-electronVersion: 6.0.10
